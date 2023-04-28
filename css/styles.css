@@ -1,0 +1,110 @@
+/* CSS Document */
+
+/*
+#5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: linear-gradient(#F7A26C, #804720);
+	text-align: center;
+	margin: 0 auto;
+}
+
+.image {
+	width: 500px;
+	height: 500px;
+	border: solid 5px #fff;
+}
+
+nav {
+	display: block;
+	padding: 2.5em;
+	background-color: #804720;
+	margin: 2%;
+	border: solid 5px #5C3317;
+	border-radius: 8px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	color: #E76A1A;
+	text-decoration: none;
+	font-size: 2em;
+	padding: 1em;
+}
+
+nav li a:hover {
+	color: #F7A26C;
+}
+
+nav li a:active {
+	color: #CCAF9D;
+}
+
+nav li a:visited {
+	color: #E76A1A;
+}
+
+ol {
+	margin: 2%;
+	list-style-type: none;
+}
+
+h1 {
+	color: #fff;
+	margin-top: 5%;
+}
+
+h2 {
+	color: #5C3317;
+	margin: 1%;
+}
+
+h3 {
+	marign: 5%;
+}
+
+h5 {
+	padding: 3%;
+}
+
+h6 {
+	padding-bottom: 3%;
+	color: #CCAF9D;
+}
+
+p {
+	margin: 3%;
+}
+
+blockquote {
+	text-decoration: underline;
+}
+
+table {
+	margin: 2% 2% 2% 30%;
+	padding: 5%;
+	background-color: #5C3317cc;
+	font-size: 1.5em;
+	color: #CCAF9D;
+	border-radius: 1em;
+}
+
+input {
+	font-size: 1em;
+	padding: .25em;
+	border-radius: 1em;
+	color: #5C3317cc;
+}
